@@ -1,0 +1,10 @@
+[user]
+	email = lharries@users.noreply.github.co-
+	name = Luke Harries
+[core]
+	autocrlf = input
+[alias]
+	recent = branch --sort=-committerdate
+	tree = log --graph --oneline --all
+	cp = commit --patch
+	recent-commits = for-each-ref --sort=-committerdate refs/heads/
