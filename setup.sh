@@ -10,5 +10,5 @@ if [ ! -r "$DOTFILES" ]; then
 	exit
 fi
 
-ln -s $DOTFILES/zsh/zshrc ~/.zshrc
-ln -s $DOTFILES/git/gitconfig ~/.gitconfig
+ln -s $DOTFILES/zshrc ~/.zshrc
+ln -s $DOTFILES/gitconfig ~/.gitconfig
