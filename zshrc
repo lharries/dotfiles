@@ -102,6 +102,8 @@ alias rm="rm -i"
 export PIP_REQUIRE_VIRTUALENV=true
 
 # start within a tmux shell [source](https://unix.stackexchange.com/questions/43601/how-can-i-set-my-default-shell-to-start-up-tmux)
-if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-	exec tmux 
-fi
+# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+# 	exec tmux 
+# fi
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
