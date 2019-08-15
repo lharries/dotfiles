@@ -2,6 +2,7 @@
 	email = lharries@users.noreply.github.co-
 	name = Luke Harries
 [core]
+    excludesfiles = ~/.gitignore_global
 	autocrlf = input
 [alias]
 	recent = branch --sort=-committerdate

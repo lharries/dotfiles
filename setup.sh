@@ -12,5 +12,6 @@ fi
 
 ln -s $DOTFILES/zshrc ~/.zshrc
 ln -s $DOTFILES/gitconfig ~/.gitconfig
+ln -s $DOTFILES/gitignore_global ~/.gitignore_global
 ln -s $DOTFILES/tmux.conf ~/.tmux.conf
 ln -s $DOTFILES/vimrc ~/.vimrc
