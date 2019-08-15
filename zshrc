@@ -106,4 +106,11 @@ export PIP_REQUIRE_VIRTUALENV=true
 # 	exec tmux 
 # fi
 
+# setup fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# setup thefuck
+eval $(thefuck --alias)
+
+# setup autojump
+source /usr/share/autojump/autojump.zsh
