@@ -1,5 +1,5 @@
 [user]
-	email = lharries@users.noreply.github.co-
+	email = lharries@users.noreply.github.com
 	name = Luke Harries
 [core]
     excludesfiles = ~/.gitignore_global
