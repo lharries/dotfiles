@@ -1,4 +1,6 @@
-1. Clone this repo to ~ and run `bash ./dotfiles/setup.sh ~/dotfiles`
+## Luke' s dotfiles :nerd_face: 
+
+1. Clone this repo to ~ and run`bash ./dotfiles/setup.sh ~/dotfiles`
 1. [Install zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#install-and-set-up-zsh-as-default)
 1. [Install oh my zsh](https://github.com/robbyrussell/oh-my-zsh#basic-installation)
 1. [Install thefuck](https://github.com/nvbn/thefuck#installation)
