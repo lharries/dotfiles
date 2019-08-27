@@ -1,4 +1,4 @@
-## Luke' s dotfiles :nerd_face: 
+## Luke's dotfiles :nerd_face: 
 
 1. Clone this repo to ~
 1. [Install zsh](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH#install-and-set-up-zsh-as-default)
