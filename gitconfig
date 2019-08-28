@@ -10,5 +10,6 @@
 	cp = commit --patch
 	recent-commits = for-each-ref --sort=-committerdate refs/heads/
 	pu =!git push -u origin $(git rev-parse --abbrev-ref HEAD)
+	c = !git checkout $(git recent | fzf | cut -c 3-)
 [pull]
 	rebase = true
