@@ -114,3 +114,6 @@ eval $(thefuck --alias)
 
 # setup autojump
 source /usr/share/autojump/autojump.zsh
+
+# handy aliases
+alias f="rg . -l | fzf"
