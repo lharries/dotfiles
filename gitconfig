@@ -2,7 +2,7 @@
 	email = lharries@users.noreply.github.com
 	name = Luke Harries
 [core]
-    excludesfiles = ~/.gitignore_global
+	excludesfile = ~/.gitignore_global
 	autocrlf = input
 [alias]
 	recent = branch --sort=-committerdate
@@ -14,3 +14,7 @@
 	c = !git checkout $(git recent | fzf | cut -c 3-)
 [pull]
 	rebase = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[credential]
+	helper = osxkeychain
